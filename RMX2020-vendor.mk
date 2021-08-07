@@ -18,6 +18,10 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/realme/RMX2020
 
 PRODUCT_COPY_FILES += \
+    vendor/realme/RMX2020/proprietary/product/vendor_overlay/30/etc/init/android.hardware.usb@1.1-service-mediatek.rc:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/etc/init/android.hardware.usb@1.1-service-mediatek.rc \
+    vendor/realme/RMX2020/proprietary/product/vendor_overlay/30/bin/hw/android.hardware.usb@1.1-service-mediatek:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/bin/hw/android.hardware.usb@1.1-service-mediatek \
+
+PRODUCT_COPY_FILES += \
     vendor/realme/RMX2020/proprietary/bin/kpoc_charger:$(TARGET_COPY_OUT_SYSTEM)/bin/kpoc_charger \
     vendor/realme/RMX2020/proprietary/bin/vtservice:$(TARGET_COPY_OUT_SYSTEM)/bin/vtservice \
     vendor/realme/RMX2020/proprietary/product/etc/apns-conf.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/apns-conf.xml \
