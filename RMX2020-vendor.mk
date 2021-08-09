@@ -34,4 +34,5 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX2020/proprietary/lib64/libem_support_jni.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libem_support_jni.so \
 
 PRODUCT_PACKAGES += \
-    EngineerMode
+    EngineerMode \
+    ImsService
